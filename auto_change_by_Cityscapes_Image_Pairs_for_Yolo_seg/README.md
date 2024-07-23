@@ -4,7 +4,7 @@
 
 **[Yolov8seg](https://docs.ultralytics.com/ja/tasks/segment/)** に対応するラベルに変換するためのプログラムです。　　
 
-※**プログラムは __ road __ のみのラベルを作成します。その他ラベルを作成したい場合はright_mask.py内のroad_color = np.arrayのRGB値を変更してください。**　　
+※**プログラムは _road_ のみのラベルを作成します。その他ラベルを作成したい場合はright_mask.py内のroad_color = np.arrayのRGB値を変更してください。**　　
 
 RGB値に関する情報は個人で検索することをお願い申し上げます。　　
 
