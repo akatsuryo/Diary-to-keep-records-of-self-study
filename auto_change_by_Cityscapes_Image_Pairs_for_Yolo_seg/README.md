@@ -19,29 +19,19 @@ RGB値に関する情報は個人で検索することをお願い申し上げ�
 ※フォルダの階層は以下のようにしてください。　　
 
 auto_change_by_Cityscapes_Image_Pairs_for_Yolo_seg/　　
-
+```
 ├──任意のフォルダ　　
-
 |    ├── 1.png　　
-
 |    ├── 2.png　　
-
 |    └── n.png　　
-
 ├── auto_data_remake.py　　
-
 ├── half_image.py　　
-
 ├── label1.py　　
-
 ├── label2.py　　
-
 ├── label3.py　　
-
 ├── right_mask.py　　
-
 └── right_polygon.py　　
-
+```
 ## 3: コマンドプロンプトなどで **auto_change_by_Cityscapes_Image_Pairs_for_Yolo_seg** に移動し、auto_data_remake.pyを実行してください　　
 
 ※実行中の表示　　
@@ -67,30 +57,19 @@ python auto_data_remake.py　　
 # 解説　　
 
 auto_change_by_Cityscapes_Image_Pairs_for_Yolo_seg/　　
-
+```
 ├── 任意のフォルダ　　
-
 ├── data_remake　　
-
 |       ├── right　　
-
 |       |     ├── maxlabel_change　　
-
 |       |     ├── null_label　　
-
 |       |     ├── right_label　　
-
 |       |     ├── right_mask　　
-
 |       |     ├── right_maxlabel　　
-
 |       |     └── right_polygon　　
-
 |       └── left　　
-
 ├── auto_data_remake.py　　
-
-
+```
 
 ## rightフォルダ　　
 
